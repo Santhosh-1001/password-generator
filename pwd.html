@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pwd.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Generate a<br><span class="pwd-txt">Random Password</span></h1>
+            <div class="generate-pwd">
+                <input class="input-pwd" type="text" id="password" placeholder="Password">
+                <img class="js-copy-img" src="icons/copy.png">
+            </div>
+            <div class="copied-msg">Password copied to clipboard</div>
+            <button class="pwd-btn js-pwd-btn"><img src="icons/generate.png"><span class="btn-txt">Generate Password</span></button>
+        </div>
+
+        <script src="pwd.js"></script>
+    </body>
+</html>

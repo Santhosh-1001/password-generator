@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Roboto, Arial;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    margin: 12%;
+    width: 90%
+}
+
+.container h1{
+    color: white;
+}
+
+.pwd-txt{
+    font-size: 42px;
+    color: green;
+    border-bottom: 3px solid green;
+    margin-top: 20px;
+}
+
+.generate-pwd{
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    background: white;
+}
+
+.generate-pwd img{
+    width: 45px;
+    cursor: pointer;
+}
+
+.generate-pwd img:active{
+    width: 46px;
+}
+
+.input-pwd{
+    width: 50%;
+    font-size: 24px;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.input-pwd::placeholder{
+    color: green;
+}
+
+.copied-msg{
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+    display: none;
+}
+
+.pwd-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: opacity 0.45s;
+}
+
+.pwd-btn:hover{
+    opacity: 0.9;
+}
+
+.pwd-btn:active{
+    opacity: 0.7;
+}
+
+.btn-txt{
+    margin-left: 5px;
+}
+
+.pwd-btn img{
+    width: 24px;
+}
